@@ -17,4 +17,9 @@ public class Tester {
     public void testFact3() {
         Assertions.assertEquals(120, Calculator.my_fact(5));
     }
+
+    @Test
+    public void testFact4() {
+        Assertions.assertEquals(740, Calculator.my_fact(6));
+    }
 }
